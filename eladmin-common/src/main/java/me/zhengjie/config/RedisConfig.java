@@ -58,7 +58,7 @@ public class RedisConfig extends CachingConfigurerSupport {
 
     /**
      *  设置 redis 数据默认过期时间，默认2小时
-     *  设置@cacheable 序列化方式
+     *  设置 @Cacheable 序列化方式
      */
     @Bean
     public RedisCacheConfiguration redisCacheConfiguration(){
